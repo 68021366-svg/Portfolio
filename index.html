@@ -3,70 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>หน้าแรก - แฟ้มสะสมผลงาน</title>
+    <title>Portfolio | Suphawit Triinthong</title>
 </head>
 <body>
 
+    <!-- ส่วนหัวของเว็บไซต์ -->
     <header>
-        <h1>Portfolio</h1>
+        <h1>My Portfolio</h1>
+        <p>แฟ้มสะสมผลงาน | Computer Science Student</p>
     </header>
 
-    <nav>
+    <!-- นำทางไปส่วนต่างๆ -->
+    <nav aria-label="เมนูหลัก">
         <ul>
-            <li><a href="#about">เกี่ยวกับฉัน</a></li>
-            <li><a href="#skills">ทักษะและผลงาน</a></li>
+            <li><a href="#about">About Me | เกี่ยวกับฉัน</a></li>
+            <li><a href="#skills">Skills | ทักษะ</a></li>
+            <li><a href="#projects">Projects | ผลงาน</a></li>
+            <li><a href="#goals">Learning Goals | เป้าหมาย</a></li>
+            <li><a href="#contact">Contact | ติดต่อ</a></li>
         </ul>
     </nav>
 
+    <!-- เนื้อหาหลักของเว็บไซต์ -->
     <main>
+
+        <!-- Section 1: ประวัติส่วนตัว -->
         <section id="about">
-            <h2>ประวัติของฉัน</h2>
-            <p><strong>ชื่อ-นามสกุล: </strong>นายศุภวิชญ์ ตรีอินทอง</p>
-            <p><strong>ชั้นปีและสาขาวิชา: </strong>นิสิตชั้นปีที่ 2 สาขาวิชาวิทยาการคอมพิวเตอร์</p>
-            <p>สวัสดีครับ เป้าหมายในการเรียนรายวิชานี้ของฉันคือการพัฒนาทักษะด้านการพัฒนาเว็บแอปพลิเคชัน ทั้งในส่วนของ front-end และ back-end เพื่อนำไปต่อยอดในการทำโปรเจกต์ของฉันและงานอื่นๆ ตลอดปีการศึกษานี้ครับ</p>
-            <img src="image/Formal Blue Background ID Portrait.png" alt="รูปภาพโปรไฟล์สำหรับแฟ้มสะสมผลงาน" width="250">
+            <h2>About Me | เกี่ยวกับฉัน</h2>
+
+            <img src="image/Formal Blue Background ID Portrait.png" 
+            alt="รูปถ่ายโปรไฟล์ของนายศุภวิชญ์ ตรีอินทอง"
+            width="300"
+            >
+
+            <h3>Personal Information | ข้อมูลส่วนตัว</h3>
+            <p><strong>ชื่อ-นามสกุล:</strong>นายศุภวิชญ์ ตรีอินทอง</p>
+            <p><strong>ระดับการศึกษา:</strong>นิสิตชั้นปีที่ 2</p>
+            <p><strong>สาขาวิชา:</strong>วิทยาการคอมพิวเตอร์</p>
+
+            <h3>Introduction | แนะนำตัว</h3>
+            <p>สวัสดีครับ ผมเป็นนิสิตสาขาวิชาวิทยาการคอมพิวเตอร์ที่มีความสนใจด้านคอมพิวเตอร์และการเขียนโปรแกรมชอบเรียนรู้เทคโนโลยีใหม่ๆ และต้องการพัฒนาทักษะด้านการพัฒนาซอฟต์แวร์ เพื่อนำความรู้ไปประยุกต์ใช้ในการสร้าง Web Application และพัฒนาผลงานที่สามารถนำไปใช้งานได้จริงในอนาคต</p>
         </section>
 
+        <!-- Section 2: ทักษะและความสนใจ -->
         <section id="skills">
-            <h2>ทักษะ</h2>
-            <ul>
-                <li>
-                    <strong>Front-end</strong>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </li>
+            <h2>Skills & Interests | ทักษะและความสนใจ</h2>
+            <h3>Programming Languages & Technologies</h3>
 
-                <li>
-                    <strong>Back-end</strong>
-                    <ul>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Node.js</li>
-                    </ul>
-                </li>
+            <ul>
+                <li><strong>Frontend</strong></li>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <li><strong>Backend</strong></li>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Node.js</li>
+                </ul>
+
+                <li><strong>Database</strong></li>
+                <ul>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                </ul>
             </ul>
 
-            <h2>เป้าหมายในภาคการศึกษานี้</h2>
+            <h3>Areas of Interest | ด้านที่สนใจ</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Frontend Development</li>
+                <li>Backend Development</li>
+                <li>Software Engineering</li>
+            </ul>
+        </section>
+
+        <!-- Section 3: ผลงาน -->
+        <section id="projects">
+            <h2>Projects | ผลงานและประสบการณ์</h2>
+            <h3>SmartDorm</h3>
+            <p>ระบบเว็บแอปพลิเคชันจัดการและแจ้งบิลค่าใช้จ่ายหอพักด้วยเทคโนโลยี OCR(Optical Character Recognition)</p>
+
+            <h4>Technologies Used | เทคโนโลยีที่เกี่ยวข้อง</h4>
+            <ul>
+                <li>Web Application Development</li>
+                <li>Database Management</li>
+                <li>Optical Character Recognition (OCR)</li>
+            </ul>
+        </section>
+
+        <!-- Section 4: เป้าหมายในการเรียน -->
+        <section id="goals">
+            <h2>Learning Goals | เป้าหมายในการเรียน</h2>
+            <p>เป้าหมายของผมในการศึกษาและพัฒนาตนเองในระดับมหาวิทยาลัย มีดังต่อไปนี้</p>
+
             <ol>
                 <li>สามารถเขียน HTML พื้นฐานได้และเขียนได้อย่างถูกต้องตามหลักสากล</li>
                 <li>สามารถเขียน CSS พื้นฐานและรู้วิธีการใช้ Framework ต่างๆ</li>
                 <li>สามารถเขียน JavaScript พื้นฐานและรู้วิธีการใช้ Framework ต่างๆ</li>
-                <li>รู้วิธีการสร้าง Web application ในทุกๆ ขั้นตอนแบบละเอียด และสามารถสร้างเป็น software แล้ว Deploy ใช้งานได้จริง</li>
+                <li>รู้วิธีการสร้าง Web application ในทุกๆขั้นตอนแบบละเอียด และสามารถสร้างเป็น software แล้ว Deploy ใช้งานได้จริง</li>
             </ol>
         </section>
+
     </main>
 
-    <footer>
+    <!-- ส่วนท้ายของเว็บไซต์ -->
+    <footer id="contact">
         <hr>
-        <p><strong>ช่องทางการติดต่อ</strong></p>
-        <ul>
-            <li>Email: <a href="mailto:68021366@up.ac.th">68021366@up.ac.th</a></li>
-            <li>Github: <a href="https://github.com/68021366-svg" target="_blank">68021366-svg</a></li>
-        </ul>
+        <h2>Contact | ช่องทางการติดต่อ</h2>
+            <ul>
+                <li>
+                    Email: 68021366@up.ac.th
+                </li>
+
+                <li>
+                    GitHub: 68021366-svg
+                </li>
+            </ul>
     </footer>
-    
+
 </body>
 </html>
